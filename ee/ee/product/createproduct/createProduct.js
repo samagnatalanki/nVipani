@@ -8,7 +8,7 @@ describe('Create Product', function () {
     var sign=require('../../account/common/sign.common');
     
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         element(by.id('nav-products')).click();
     });

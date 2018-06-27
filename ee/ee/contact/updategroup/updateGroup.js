@@ -11,7 +11,7 @@ describe('Update a Group',function () {
     var updateButton=element(by.xpath('//button[@aria-label=\'Update\']'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         element(by.id('nav-contacts')).click();
     });

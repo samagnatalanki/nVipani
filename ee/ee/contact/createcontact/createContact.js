@@ -9,7 +9,7 @@ describe('Create a Contact',function () {
     var form=element(by.name('addContactsForm'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         element(by.id('nav-contacts')).click();
     });

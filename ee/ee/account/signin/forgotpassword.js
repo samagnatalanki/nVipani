@@ -15,7 +15,7 @@ describe('Forgot Password', function () {
     var username = element(by.model('passwordcredentials.username'));
 
     beforeEach(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         forgot.click();
     });
 

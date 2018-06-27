@@ -16,7 +16,7 @@ describe('Create Business User', function () {
     var updateButton=element(by.xpath('//button[@aria-label=\'Update\' and @aria-hidden=\'false\']'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         sign.companyProfile();
     });

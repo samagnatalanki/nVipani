@@ -11,7 +11,7 @@ describe('Group Actions', function () {
     var tab = element(by.xpath('//md-tab-item[text()=\'Business Units\']'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         sign.companyProfile();
     });

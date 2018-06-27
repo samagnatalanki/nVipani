@@ -10,7 +10,7 @@ var config = {
        /* browser.get('!#/register');*/
     },
     suites:{
-        registration:['e2e/account/signup/*.spec.js' ,
+        registration:['ee/ee/account/signup/*.js' ,
                       'e2e/account/signin/*.spec.js'],
         contacts:['e2e/contacts/createcontact/*.spec.js*',
                   'e2e/contacts/editcontact/*.spec.js*',

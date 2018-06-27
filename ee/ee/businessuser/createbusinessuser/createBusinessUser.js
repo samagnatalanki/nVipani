@@ -18,7 +18,7 @@ describe('Add Business User',function () {
     var closeButton=element(by.id('close-add-business-user'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         sign.companyProfile();
     });

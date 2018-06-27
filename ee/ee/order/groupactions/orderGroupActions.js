@@ -10,7 +10,7 @@ describe('Group Actions', function () {
 
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
     });
 

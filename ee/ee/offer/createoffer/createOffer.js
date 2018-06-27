@@ -12,7 +12,7 @@ describe('Create an Offer',function () {
     var continueButton=element(by.xpath('//button[@aria-label=\'Continue\' and @aria-hidden=\'false\']'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
     });
 

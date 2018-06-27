@@ -19,7 +19,7 @@ describe('Sign up', function () {
     var password = element(by.model('password'));
 
     beforeEach(function () {
-        browser.get('http://localhost:3000/#!/register');
+        browser.get('http://staging.nvipani.com/#!/register');
     });
 
     afterEach(function () {

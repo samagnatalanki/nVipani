@@ -23,7 +23,7 @@ describe('Create Business User', function () {
     var refreshBunit=element(by.id('refreshAddBunit'));
 
     beforeAll(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
         sign.login(data[0]);
         sign.companyProfile();
     });

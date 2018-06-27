@@ -9,7 +9,7 @@ describe('Sign in',function () {
     var signin=require('../common/sign.common');
 
     beforeEach(function () {
-        browser.get('http://localhost:3000/#!/signin');
+        browser.get('http://staging.nvipani.com/#!/signin');
     });
 
     afterEach(function () {
