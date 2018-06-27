@@ -11,7 +11,7 @@ var config = {
     },
     suites: {
         registration: ['ee/ee/account/signup/*.js',
-            'e2e/account/signin/*.spec.js'],
+            'ee/ee/account/signin/*.js'],
         contacts: ['e2e/contacts/createcontact/*.spec.js*',
             'e2e/contacts/editcontact/*.spec.js*',
             'e2e/contacts/creategroup/*.spec.js*'],

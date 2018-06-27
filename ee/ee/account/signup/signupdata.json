@@ -13,5 +13,6 @@
   {"username" : "9591966952", "password" : "saianirud", "trading" : "Distributor", "segment" : ["Yarn"] , "subSegment" : {"Yarn":["Wool Fabric"]}},
   {"username" : "9591966953", "password" : "saianirud", "trading" : "Retailer", "segment" : ["Yarn"] , "subSegment" : {"Yarn":["Wool Yarn","Cotton Fabric"]}},
   {"username" : "9591966954", "password" : "saianirud", "trading" : "Distributor", "segment" : ["Fabric", "Yarn"] , "subSegment" : {"Fabric" : ["Wool Fabric","Cotton Fabric"], "Yarn" : ["Cotton Yarn"]}},
-  {"username" : "9591966955", "password" : "saianirud", "trading" : "Retailer", "segment" : ["Coffee", "Yarn"]}
+  {"username" : "9591966955", "password" : "saianirud", "trading" : "Retailer", "segment" : ["Coffee", "Yarn"]},
+  {"username" : "test123@gmail.com", "password" : "12345678", "trading" : "Retailer", "segment" : ["Coffee", "Yarn"]}
 ]
