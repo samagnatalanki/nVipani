@@ -1,0 +1,31 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "groupType":"Customer",
+    "groupName":"sbi",
+    "groupDescription":"fcdvfbg",
+    "contacts":["Anirud","Sai","Reddy"]
+  },
+  {
+    "groupType":"Customers",
+    "groupName":"sbi",
+    "groupDescription":"fcdvfbg",
+    "contacts":["Anirud","Sai","Reddy"]
+  },
+  {
+    "groupType":"Customer",
+    "groupName":"sbi",
+    "contacts":["Anirud","Sai","Reddy"]
+  },
+  {
+    "groupType":"Customer",
+    "groupName":"sbi",
+    "groupDescription":"fcdvfbg"
+  },
+  {
+    "groupType":"Customer",
+    "groupName":"sbi",
+    "groupDescription":"fcdvfbg",
+    "contacts":["Anirud","Saibh","Reddy"]
+  }
+]

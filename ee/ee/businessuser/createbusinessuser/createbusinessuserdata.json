@@ -1,0 +1,9 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser", "trading": "Distributor","segment": ["Coffee"]},
+  {"usergroup":"Admin","email":"saianirud1111111111@gmail.com","password":"saianirud"},
+  {"usergroup":"Manager","email":"saianirudh@gmail.com","password":"saianirud"},
+  {"email":"saianirud@gmail.com","password":"saianirud"},
+  {"usergroup":"Admin","password":"saianirud"},
+  {"usergroup":"Admi","email":"saianirud@gmail.com","password":"saianirud"},
+  {"usergroup":"Admin","email":"saianirud@","password":"saianirud"}
+]

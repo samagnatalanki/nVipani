@@ -1,0 +1,10 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "action":"Disable",
+    "Products":[
+      {"productName":"Cotton Apparel","productBrand":"Silk","productUOM":"Box (51Nos)"},
+      {"productName":"Cotton Apparel","productBrand":"abcd","productUOM":"Box (12Bag)"}
+    ]
+  }
+]

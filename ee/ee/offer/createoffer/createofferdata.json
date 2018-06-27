@@ -1,0 +1,14 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "productDetails":[
+      {"productName":"Cotton Apparel","productBrand":"abcd","productUOM":"Box (12Bag)"},
+      {"productName":"Cotton Apparel","productBrand":"Silk","productUOM":"Box (51Nos)"}
+    ],
+    "offerName":"abcd",
+    "offerType":"Sell",
+    "visibility":"Public",
+    "paymentTerms":["Net 30","Net 45"],
+    "paymentModes":["Cash","Cheque"]
+  }
+]

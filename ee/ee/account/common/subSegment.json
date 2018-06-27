@@ -1,0 +1,8 @@
+ {
+    "Cereals" : ["Sona Masoori Rice"],
+    "Coffee" : ["Coffee Berries"],
+    "Vegetables" : ["Lemon", "Onion", "Garlic"],
+    "Yarn" : ["Cotton Yarn", "Silk Yarn", "Wool Yarn"],
+    "Fabric" : ["Cotton Fabric", "Silk Fabric", "Wool Fabric"],
+    "Apparel" : ["Cotton Apparel", "Silk Apparel", "Wool Apparel"]
+ }

@@ -1,0 +1,17 @@
+[
+  {"username" : "9591966941"},
+  {"password" : "saianirud"},
+  {"username" : "959196694", "password" : "saianirud"},
+  {"username" : "saianirudh1000@gmail", "password" : "saianirud"},
+  {"username" : "9591966945", "password" : "sai"},
+  {"username" : "9591966946", "password" : "saianirud", "trading" : "Manufacturer"},
+  {"username" : "9591966947", "password" : "saianirud", "segment" : "Cereals"},
+  {"username" : "9591966948", "password" : "saianirud", "trading" : "Mnufacturer", "segment" : "Vegetables"},
+  {"username" : "9591966949", "password" : "saianirud", "trading" : "Distributor", "segment" : "Ceeals"},
+  {"username" : "9591966950", "password" : "saianirud", "trading" : "Manufacturer", "segment" : "Yarn"},
+  {"username" : "9591966951", "password" : "saianirud", "trading" : "Retailer", "segment" : "Rice"},
+  {"username" : "9591966952", "password" : "saianirud", "trading" : "Distributor", "segment" : ["Yarn"] , "subSegment" : {"Yarn":["Wool Fabric"]}},
+  {"username" : "9591966953", "password" : "saianirud", "trading" : "Retailer", "segment" : ["Yarn"] , "subSegment" : {"Yarn":["Wool Yarn","Cotton Fabric"]}},
+  {"username" : "9591966954", "password" : "saianirud", "trading" : "Distributor", "segment" : ["Fabric", "Yarn"] , "subSegment" : {"Fabric" : ["Wool Fabric","Cotton Fabric"], "Yarn" : ["Cotton Yarn"]}},
+  {"username" : "9591966955", "password" : "saianirud", "trading" : "Retailer", "segment" : ["Coffee", "Yarn"]}
+]

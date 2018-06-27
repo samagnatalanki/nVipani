@@ -1,0 +1,32 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "productDetails":[
+      {"productName":"Cotton Apparel","productBrand":"abcd","productUOM":"Box (12Bag)","productQuantity":"5"}
+    ],
+    "buyer":"TirupatiBranch",
+    "type":"Intra Stock",
+    "address":{
+      "addressLine":"12-34 Jeevan Bheema Nagar",
+      "city":"Bangalore",
+      "state":"Karnataka",
+      "country":"India",
+      "pinCode":"576104"
+    },
+    "paymentMethod":"Net 30"
+  },
+  {
+    "productDetails":[
+      {"productName":"Cotton Apparel","productBrand":"Silk","productUOM":"Box (51Nos)","productQuantity":"2"}
+    ],
+    "buyer":"Sai",
+    "address":{
+      "addressLine":"12-34 Jeevan Bheema Nagar",
+      "city":"Bangalore",
+      "state":"Karnataka",
+      "country":"India",
+      "pinCode":"576104"
+    },
+    "paymentMethod":"Net 30"
+  }
+]

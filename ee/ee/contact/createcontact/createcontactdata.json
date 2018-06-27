@@ -1,0 +1,67 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "type":"Customer",
+    "basicInfo":{"name":"Anirud","fName":"Sai","lName":"Reddy","companyName":"abcd","payment":"Net 30","gstinNo":"123345","aadharNo":"888888888888"},
+    "email":[{"emailType":"Office","mailid":"bangulure@branch.com"},{"mailid":"qdfbg"},{"mailid":"s@gmail.com"}],
+    "phoneNumber":[{"phoneType":"Work","number":"12345670"},{"phoneType":"Office","number":"1234567890"},{"number":"9591966941"},{"number":"89"}],
+    "address":[
+      {
+        "addressType":"Invoice",
+        "addressLine": "526,JeevanBheema Nager",
+        "city": "Bengulure",
+        "state": "Karnataka",
+        "country": "India",
+        "pinCode": "123456"
+      },
+      {
+        "addressType":"Receiving",
+        "addressLine": "526,JeevanBheema Nager",
+        "city": "Bengulure",
+        "state": "Karnataka",
+        "country": "India",
+        "pinCode": "123456"
+      },
+      {
+        "addressType":"Invoice",
+        "addressLine": "526,JeevanBheema Nager",
+        "city": "Bengulure",
+        "state": "Karnataka",
+        "country": "India",
+        "pinCode": "123456"
+      }
+    ]
+  },
+  {
+    "type":"Supplier",
+    "basicInfo":{"name":"Anirud","fName":"Sai","lName":"Reddy","companyName":"abcd","payment":"Net 30","gstinNo":"123345","aadharNo":"888888888888"},
+    "email":[{"emailType":"Office","mailid":"bangulure@branch.com"},{"mailid":"qdfbg"},{"mailid":"s@gmail.com"}],
+    "phoneNumber":[{"phoneType":"Work","number":"12345670"},{"phoneType":"Office","number":"1234567890"},{"number":"9591966941"},{"number":"89"}],
+    "address":[
+      {
+        "addressType":"Invoice",
+        "addressLine": "526,JeevanBheema Nager",
+        "city": "Bengulure",
+        "state": "Karnataka",
+        "country": "India",
+        "pinCode": "123456"
+      },
+      {
+        "addressType":"Receiving",
+        "addressLine": "526,JeevanBheema Nager",
+        "city": "Bengulure",
+        "state": "Karnataka",
+        "country": "India",
+        "pinCode": "123456"
+      },
+      {
+        "addressType":"Invoice",
+        "addressLine": "526,JeevanBheema Nager",
+        "city": "Bengulure",
+        "state": "Karnataka",
+        "country": "India",
+        "pinCode": "123456"
+      }
+    ]
+  }
+]

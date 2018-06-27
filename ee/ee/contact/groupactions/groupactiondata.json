@@ -1,0 +1,8 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "action":"Delete",
+    "type":"Suppliers",
+    "Contacts":["Anirud","Sai"]
+  }
+]

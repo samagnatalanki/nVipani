@@ -1,0 +1,28 @@
+[
+  {"username":"registerBuser@test.com","password":"registerBuser"},
+  {
+    "category": "Apparel (APPRL)",
+    "product":{"productName":"Cotton Apparel (COTAP)","productHsnCode":[{"hsnSearch":"901"}],"productTaxGroup":[{"taxSearch":"12%","taxCode":["GST 12%"]},{"taxSearch":"18%","taxCode":["GST 18%"]}],"productUOM":[{"uomSearch":"Amp","uomCode":["Ampules"]}]},
+    "brand":{"brandName":"Silk","brandHsnCode":"61121930","brandTaxGroup":"GST 12%","brandUOMs":["Box (51Nos)","nj dxk"]},
+    "inventory": [
+      {
+        "type":"Add UOM",
+        "UOM": {"UOMName":"Ampules"},
+        "NoofUnits": "12",
+        "mrp": "250",
+        "alternateNoofUnits":"12",
+        "alternateMRP":"1000"
+      },
+      {
+        "UOM":{"UOMName":"Amp (12Amp)"},
+        "NoofUnits": "12a",
+        "mrp": "250"
+      },
+      {
+        "UOM":{"UOMName":"Box (51Nos)"},
+        "NoofUnits": "12",
+        "mrp": "250"
+      }
+    ]
+  }
+]
