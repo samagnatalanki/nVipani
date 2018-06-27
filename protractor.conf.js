@@ -4,21 +4,21 @@
 var config = {
     troubleshoot: true,
     baseUrl: 'http://staging.nvipani.com/#!/',
-    onPrepare: function() {
+    onPrepare: function () {
         browser.driver.manage().window().maximize();
-       /* browser.get('#!/register');*/
-       /* browser.get('!#/register');*/
+        /* browser.get('#!/register');*/
+        /* browser.get('!#/register');*/
     },
-    suites:{
-        registration:['ee/ee/account/signup/*.js' ,
-                      'e2e/account/signin/*.spec.js'],
-        contacts:['e2e/contacts/createcontact/*.spec.js*',
-                  'e2e/contacts/editcontact/*.spec.js*',
-                  'e2e/contacts/creategroup/*.spec.js*'],
-        products:['e2e/products/createproduct/*.spec.js',
-                  'e2e/products/editproduct/*.spec.js',
-                  'e2e/products/importproducts/*.spec.js'],
-        all:['e2e/account/signup/*.spec.js',
+    suites: {
+        registration: ['ee/ee/account/signup/*.js',
+            'e2e/account/signin/*.spec.js'],
+        contacts: ['e2e/contacts/createcontact/*.spec.js*',
+            'e2e/contacts/editcontact/*.spec.js*',
+            'e2e/contacts/creategroup/*.spec.js*'],
+        products: ['e2e/products/createproduct/*.spec.js',
+            'e2e/products/editproduct/*.spec.js',
+            'e2e/products/importproducts/*.spec.js'],
+        all: ['e2e/account/signup/*.spec.js',
             'e2e/account/signin/*.spec.js',
             'e2e/products/createproduct/*.spec.js',
             'e2e/products/editproduct/*.spec.js',
@@ -56,7 +56,7 @@ var config = {
 
 
 
-config.multiCapabilities=[
+config.multiCapabilities = [
     { browserName: 'chrome' }
 ];
 exports.config = config;
