@@ -1,7 +1,16 @@
 [
-  {"username":"registerBuser@test.com","password":"registerBuser", "trading": "Distributor","segment": ["Coffee"]},
   {
-    "action":"Disable",
-    "BusinessUsers":["sai@gmail.com"]
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "trading": "Distributor",
+    "segment": [
+      "Coffee"
+    ]
+  },
+  {
+    "action": "Disable",
+    "BusinessUsers": [
+      "sai@gmail.com"
+    ]
   }
 ]

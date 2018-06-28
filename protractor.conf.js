@@ -10,12 +10,13 @@ var config = {
         /* browser.get('!#/register');*/
     },
     suites: {
-        registration: ['ee/ee/account/signup/*.js',
-            'ee/ee/account/signin/*.js'],
-        contacts: ['e2e/contacts/createcontact/*.spec.js*',
+        /*registration: ['ee/ee/account/signup/*.js',
+            'ee/ee/account/signin/*.js'],*/
+        /*contacts: ['e2e/contacts/createcontact/*.spec.js*',
             'e2e/contacts/editcontact/*.spec.js*',
-            'e2e/contacts/creategroup/*.spec.js*'],
-        products: ['e2e/products/createproduct/*.spec.js',
+            'e2e/contacts/creategroup/*.spec.js*'],*/
+        business: ['ee/ee/businessuser/groupactions/businessUserGroupActions.js'],
+        /*products: ['e2e/products/createproduct/*.spec.js',
             'e2e/products/editproduct/*.spec.js',
             'e2e/products/importproducts/*.spec.js'],
         all: ['e2e/account/signup/*.spec.js',
@@ -26,11 +27,11 @@ var config = {
             'e2e/contacts/createcontact/*.spec.js*',
             'e2e/contacts/editcontact/*.spec.js*',
             'e2e/contacts/creategroup/*.spec.js*',
-            'e2e/businessuser/createbusinessuser/*.spec.js*',
-            'e2e/businessuser/editbusinessuser/*.spec.js*',
-            'e2e/businessunit/createbusinessunit/*.spec.js*',
-            'e2e/businessunit/editbusinessunit/*.spec.js*',
-            'e2e/updatecompanyinfo/*.spec.js*']
+            'ee/ee/businessuser/createbusinessuser/*.js',
+            'ee/ee/businessuser/editbusinessuser/*.js',
+            'ee/ee/businessunit/createbusinessunit/*.js',
+            'ee/ee/businessunit/editbusinessunit/*.js',
+            'e2e/updatecompanyinfo/*.spec.js*']*/
     },
     jasmineNodeOpts: {
         isVerbose: true,
