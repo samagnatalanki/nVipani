@@ -87,12 +87,12 @@ describe('Group Actions', function () {
                     return;
                 }
 
-                /*groupActionFunction(obj.action, function (error) {
+                groupActionFunction(obj.action, function (error) {
                     if (error) {
                         console.log(error);
                         return;
                     }
-                });*/
+                });
             });
         });
     });

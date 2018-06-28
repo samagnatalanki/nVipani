@@ -6,9 +6,13 @@
     "segment": [
       "Coffee"
     ],
-    "action": "Disable",
+    "action": [
+      "Delete",
+      "Enable",
+      "Disable"
+    ],
     "BusinessUsers": [
-      "admin@gmail.com"
+      "admin1@gmail.com"
     ]
   }
 ]
