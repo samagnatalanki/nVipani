@@ -5,12 +5,10 @@
     "trading": "Distributor",
     "segment": [
       "Coffee"
-    ]
-  },
-  {
+    ],
     "action": "Disable",
     "BusinessUsers": [
-      "sai@gmail.com"
+      "admin@gmail.com"
     ]
   }
 ]

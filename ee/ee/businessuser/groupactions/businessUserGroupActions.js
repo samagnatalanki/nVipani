@@ -29,11 +29,10 @@ describe('Group Actions', function () {
         sign.logout();
     });
 
-    function selectBusersFunction(BusinessUsers,done){
-
-        if(BusinessUsers) {
+    function selectBusersFunction(BusinessUsers, done) {
+        if (BusinessUsers) {
             BusinessUsers.forEach(function (user) {
-                var selectbuser=element(by.xpath('//md-checkbox[../..//td[text()=\''+user+'\']]'));
+                var selectbuser = element(by.xpath('//md-checkbox[../..//td[text()=\'' + user + '\']]'));
                 if (user) {
                     selectbuser.isPresent().then(function (res) {
                         if (res) {
@@ -52,21 +51,21 @@ describe('Group Actions', function () {
             done(new Error("Missing BusinessUser Details"));
     }
 
-    function groupActionFunction(action,done){
-        if(action){
-            var groupactionButton=element(by.xpath('//button[@aria-label=\'Group Actions\']'));
+    function groupActionFunction(action, done) {
+        if (action) {
+            var groupactionButton = element(by.xpath('//button[@aria-label=\'Group Actions\']'));
             groupactionButton.click();
-            if(groupactionButton.isPresent() && groupactionButton.isDisplayed()) {
-                var selectgroupaction=element(by.xpath('//button[@aria-label=\''+action+'\']'));
-                sign.isClickable(selectgroupaction,function (error,ele) {
-                    if(ele){
+            if (groupactionButton.isPresent() && groupactionButton.isDisplayed()) {
+                var selectgroupaction = element(by.xpath('//button[@aria-label=\'' + action + '\']'));
+                sign.isClickable(selectgroupaction, function (error, ele) {
+                    if (ele) {
                         selectgroupaction.click();
-                        var toast=element(by.xpath('//md-toast'));
+                        var toast = element(by.xpath('//md-toast'));
                         toast.isPresent().then(function (res) {
-                            if(res)
+                            if (res)
                                 done(new Error('user needs to be registered'));
                         });
-                        }
+                    }
                     else
                         done(new Error(error));
                 });
@@ -79,22 +78,21 @@ describe('Group Actions', function () {
     }
 
 
-    data.forEach(function (data) {
-
+    data.forEach(function (obj) {
         it('should do a group action', function () {
 
-            selectBusersFunction(data.BusinessUsers,function (error,ele) {
-                if(error){
+            selectBusersFunction(obj.BusinessUsers, function (error, ele) {
+                if (error) {
                     console.log(error);
                     return;
                 }
 
-                groupActionFunction(data.action,function (error) {
-                    if(error){
+                /*groupActionFunction(obj.action, function (error) {
+                    if (error) {
                         console.log(error);
                         return;
                     }
-                });
+                });*/
             });
         });
     });
