@@ -69,7 +69,7 @@ describe('Group Actions', function () {
                             });
                         }
                         else if (action == "Delete") {
-                           done('Delete User Successful');
+                            done('Delete User Successful');
                         }
                     }
                     else
