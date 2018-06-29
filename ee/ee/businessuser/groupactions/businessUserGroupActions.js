@@ -7,8 +7,8 @@ describe('Group Actions', function () {
 
     var data = require('./groupactiondata');
     var sign = require('../../account/common/sign.common');
-
     var tab = element(by.xpath('//md-tab-item[text()=\'Business Users\']'));
+    var selectbuser;
 
     beforeAll(function () {
         browser.get('http://staging.nvipani.com/#!/signin');
@@ -32,14 +32,15 @@ describe('Group Actions', function () {
     function selectBusersFunction(BusinessUsers, done) {
         if (BusinessUsers) {
             BusinessUsers.forEach(function (user) {
-                var selectbuser = element(by.xpath('//md-checkbox[../..//td[text()=\'' + user + '\']]'));
+                selectbuser = element(by.xpath('//md-checkbox[../..//td[text()=\'' + user + '\']]'));
                 if (user) {
                     selectbuser.isPresent().then(function (res) {
                         if (res) {
                             selectbuser.click();
                         }
-                        else
+                        else {
                             done(new Error("Invalid details for BusinessUser-" + BusinessUsers.indexOf(user)));
+                        }
                     });
                 }
                 else
@@ -60,11 +61,16 @@ describe('Group Actions', function () {
                 sign.isClickable(selectgroupaction, function (error, ele) {
                     if (ele) {
                         selectgroupaction.click();
-                        var toast = element(by.xpath('//md-toast'));
-                        toast.isPresent().then(function (res) {
-                            if (res)
-                                done(new Error('user needs to be registered'));
-                        });
+                        if (action == "Enable" || action == "Disable") {
+                            var toast = element(by.xpath('//md-toast'));
+                            toast.isPresent().then(function (res) {
+                                if (res)
+                                    done(new Error('user needs to be registered'));
+                            });
+                        }
+                        else if (action == "Delete") {
+                           done('Delete User Successful');
+                        }
                     }
                     else
                         done(new Error(error));

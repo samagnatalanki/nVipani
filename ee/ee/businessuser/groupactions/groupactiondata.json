@@ -7,12 +7,24 @@
       "Coffee"
     ],
     "action": [
-      "Delete",
-      "Enable",
-      "Disable"
+      "Delete"
     ],
     "BusinessUsers": [
-      "admin1@gmail.com"
+      "test6@gmail.com"
+    ]
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "trading": "Distributor",
+    "segment": [
+      "Coffee"
+    ],
+    "action": [
+      "Delete"
+    ],
+    "BusinessUsers": [
+      "test7@gmail.com"
     ]
   }
 ]
