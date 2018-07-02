@@ -1,9 +1,8 @@
-
 'use strict';
 
 var config = browser.params;
 
-describe('Group Actions', function () {
+describe('Business User Group Actions', function () {
 
     var data = require('./groupactiondata');
     var sign = require('../../account/common/sign.common');
@@ -12,20 +11,10 @@ describe('Group Actions', function () {
 
     beforeAll(function () {
         browser.get('http://staging.nvipani.com/#!/signin');
-        sign.login(data[0]);
-        sign.companyProfile();
-    });
-
-    beforeEach(function () {
-        tab.click();
     });
 
     afterEach(function () {
-        //browser.refresh();
         browser.sleep(1000);
-    });
-
-    afterAll(function () {
         sign.logout();
     });
 
@@ -49,7 +38,7 @@ describe('Group Actions', function () {
             done(null);
         }
         else
-            done(new Error("Missing BusinessUser Details"));
+            done(new Error("Missing BusinessUser Details in Test Case"));
     }
 
     function groupActionFunction(action, done) {
@@ -62,7 +51,7 @@ describe('Group Actions', function () {
                     if (ele) {
                         selectgroupaction.click();
                         if (action == "Enable" || action == "Disable") {
-                            var toast = element(by.xpath('//md-toast'));
+                            tab.click();       var toast = element(by.xpath('//md-toast'));
                             toast.isPresent().then(function (res) {
                                 if (res)
                                     done(new Error('user needs to be registered'));
@@ -86,6 +75,10 @@ describe('Group Actions', function () {
 
     data.forEach(function (obj) {
         it('should do a group action', function () {
+
+            sign.login(obj);
+            sign.companyProfile();
+            tab.click();
 
             selectBusersFunction(obj.BusinessUsers, function (error, ele) {
                 if (error) {
