@@ -1,16 +1,49 @@
 [
-  {"username":"registerBuser@test.com","password":"registerBuser"},
   {
-    "type":"Customer",
-    "updatetype":"Supplier",
-    "name":"Anirud",
-    "updatename":"Sai",
-    "basicInfo":{"fName":"Sai","lName":"Reddy","companyName":"abcd","gstinNo":"123345","aadharNo":"888888888888"},
-    "email":[{"emailType":"Office","mailid":"bangulure@branch.com"},{"mailid":"qdfbg"},{"mailid":"s@gmail.com"}],
-    "phoneNumber":[{"phoneType":"Work","number":"12345670"},{"phoneType":"Office","number":"1234567890"},{"number":"9591966941"},{"number":"89"}],
-    "address":[
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "type": "Supplier",
+    "updatetype": "Customer",
+    "name": "Jacob",
+    "updatename": "Sai",
+    "basicInfo": {
+      "fName": "Sai",
+      "lName": "Reddy",
+      "companyName": "abcd",
+      "gstinNo": "123345",
+      "aadharNo": "888888888888"
+    },
+    "email": [
       {
-        "addressType":"Invoice",
+        "emailType": "Office",
+        "mailid": "bangulure@branch.com"
+      },
+      {
+        "mailid": "qdfbg"
+      },
+      {
+        "mailid": "s@gmail.com"
+      }
+    ],
+    "phoneNumber": [
+      {
+        "phoneType": "Work",
+        "number": "12345670"
+      },
+      {
+        "phoneType": "Office",
+        "number": "1234567890"
+      },
+      {
+        "number": "9591966941"
+      },
+      {
+        "number": "89"
+      }
+    ],
+    "address": [
+      {
+        "addressType": "Invoice",
         "addressLine": "526,JeevanBheema Nager",
         "city": "Bengulure",
         "state": "Karnataka",
@@ -18,7 +51,7 @@
         "pinCode": "123456"
       },
       {
-        "addressType":"Receiving",
+        "addressType": "Receiving",
         "addressLine": "526,JeevanBheema Nager",
         "city": "Bengulure",
         "state": "Karnataka",
@@ -26,7 +59,7 @@
         "pinCode": "123456"
       },
       {
-        "addressType":"Invoice",
+        "addressType": "Invoice",
         "addressLine": "526,JeevanBheema Nager",
         "city": "Bengulure",
         "state": "Karnataka",
