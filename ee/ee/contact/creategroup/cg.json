@@ -1,5 +1,5 @@
 [
-  {"username":"registerBuser@test.com","password":"registerBuser"},
+    {"username":"9999999955","password":"qwertyuiop"},
   {
     "groupType":"Customers",
     "groupName":"GP1",
@@ -60,52 +60,6 @@
       "groupName":"GP8",
       "groupDescription":"fcdvfbg",
       "contacts":{"type":"All"}
-  },
-  {
-    "groupType":"Customers",
-    "groupDescription":"fcdvfbg",
-    "contacts":{"type":"Custom","contactName":["Anirud","Sai","Reddy"]}
-  },
-  {
-    "groupType":"Customers",
-    "groupName":"abcd",
-    "groupDescription":"fcdvfbg"
-  },
-  {
-    "groupType":"Customers",
-    "groupName":"abcd",
-    "groupDescription":"fcdvfbg",
-    "contacts":{"type":"Custom","contactName":["Anirud","Sai"]}
-  },
-  {
-    "groupType":"Customers",
-    "groupName":"abcd",
-    "groupDescription":"fcdvfbg",
-    "contacts":{"type":"Location Criteria"}
-  },
-  {
-    "groupType":"Customers",
-    "groupName":"abcd",
-    "groupDescription":"fcdvfbg",
-    "contacts":
-    {
-      "type":"Location Criteria",
-      "address":{"addressCity":"awdvc","addressState":"wbgryjnht","addressCountry":"rthtyh","pinCode":"123456"}
-    }
-  },
-  {
-    "groupType":"Customers",
-    "groupName":"abcd",
-    "groupDescription":"fcdvfbg",
-    "contacts":{
-      "type":"Location Criteria",
-      "address":{"addressCity":"awdvc","addressState":"wbgryjnht","addressCountry":"rthtyh","pinCode":"1234"}
-    }
-  },
-  {
-    "groupType":"Customers",
-    "groupName":"abcd",
-    "groupDescription":"fcdvfbg",
-    "contacts":{"type":"All"}
   }
-]
+  ]
+  
