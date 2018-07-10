@@ -1,9 +1,75 @@
 [
   {
-    "username":"test123@gmail.com",
-    "password":"12345678",
-    "action":"Delete",
-    "type":"Suppliers",
-    "Contacts":["Johnathan"]
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Enable",
+    "type": "Suppliers",
+    "Contacts": [
+      "Jacob"
+    ],
+    "description": "single contact enable"
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Disable",
+    "type": "Suppliers",
+    "Contacts": [
+      "Jacob"
+    ],
+    "description": "single contact disable"
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Enable",
+    "type": "Suppliers",
+    "Contacts": [
+      "Jacob",
+      "Amarnath"
+    ],
+    "description": "multiple contact enable"
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Disable",
+    "type": "Suppliers",
+    "Contacts": [
+      "Jacob",
+      "Amarnath"
+    ],
+    "description": "multiple contact disable"
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Enable",
+    "type": "Customer",
+    "Contacts": [
+      "Ramesh"
+    ],
+    "description": "customer field Enable"
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Delete",
+    "type": "Suppliers",
+    "Contacts": [
+      "Amarnath"
+    ],
+    "description": "single contact delete"
+  },
+  {
+    "username": "test123@gmail.com",
+    "password": "12345678",
+    "action": "Delete",
+    "type": "Suppliers",
+    "Contacts": [
+      "Don Smith",
+      "Johnathan"
+    ],
+    "description": "multiple contact delete"
   }
 ]
