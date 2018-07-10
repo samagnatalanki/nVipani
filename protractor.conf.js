@@ -10,10 +10,8 @@ var config = {
     suites: {
         /*registration: ['ee/ee/account/signup/*.js',
             'ee/ee/account/signin/*.js'],*/
-        /*contacts: ['e2e/contacts/createcontact/*.spec.js*',
-            'e2e/contacts/editcontact/*.spec.js*',
-            'e2e/contacts/creategroup/*.spec.js*'],*/
-        business: ['ee/ee/businessuser/groupactions/businessUserGroupActions.js'],
+        contacts: ['ee/ee/contact/groupactions/contactGroupActions.js']
+        /*business: ['ee/ee/businessuser/groupactions/businessUserGroupActions.js'],*/
         /*products: ['e2e/products/createproduct/*.spec.js',
             'e2e/products/editproduct/*.spec.js',
             'e2e/products/importproducts/*.spec.js'],

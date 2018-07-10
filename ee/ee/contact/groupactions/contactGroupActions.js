@@ -11,11 +11,6 @@ describe('Group Actions', function () {
 
     beforeAll(function () {
         browser.get('http://staging.nvipani.com/#!/signin');
-        sign.login(data[0]);
-    });
-
-    beforeEach(function () {
-        element(by.id('nav-contacts')).click();
     });
 
     afterEach(function () {
@@ -83,16 +78,18 @@ describe('Group Actions', function () {
     }
 
 
-    data.forEach(function (data) {
+    data.forEach(function (obj) {
 
         it('should do a group action', function () {
 
-            selectContactFunction(data.type,data.Contacts,function (error,ele) {
+            sign.login(obj);
+            element(by.id('nav-contacts')).click();
+            selectContactFunction(obj.type,obj.Contacts,function (error,ele) {
                 if(error){
                     console.log(error);
                     return;
                 }
-
+                
                 groupActionFunction(data.type,data.action,function (error) {
                     if(error){
                         console.log(error);
