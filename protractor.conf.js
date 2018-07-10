@@ -6,8 +6,6 @@ var config = {
     baseUrl: 'http://staging.nvipani.com/#!/',
     onPrepare: function () {
         browser.driver.manage().window().maximize();
-        /* browser.get('#!/register');*/
-        /* browser.get('!#/register');*/
     },
     suites: {
         /*registration: ['ee/ee/account/signup/*.js',
