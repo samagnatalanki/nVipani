@@ -8,7 +8,7 @@ var config = {
         browser.driver.manage().window().maximize();
     },
     suites: {
-        registration: ['ee/ee/account/signup/signup.js',
+        account: ['ee/ee/account/signup/signup.js',
             'ee/ee/account/signin/signin.js',
             'ee/ee/account/signin/forgotpassword.js'
         ],
